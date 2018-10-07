@@ -1,0 +1,96 @@
+flagrow-upload:
+    forum:
+        buttons:
+            attach: 添加附件
+        states:
+            loading: 加载中
+            success: 成功
+            error: 错误
+    admin:
+        nav:
+            file_upload_button: 文件上传
+        templates:
+            image: 默认图片下载模板
+            image_description: >
+                显示图像的缩略图和下载按钮。
+                允许统计和防盗链。
+            file: 默认文件下载模板
+            file_description: >
+                显示文件名称和一些常规信息
+                允许统计和防盗链。
+            image-preview: 完整的图像展示模板
+            image-preview_description: >
+                显示完整图像。 
+                没有下载功能，没有统计，没有防盗链。
+        permissions:
+            upload_label: 文件上传设定
+            download_label: 下载文件
+        upload_methods:
+            local: 本地
+            aws-s3: Amazon S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: 偏好设定
+                max_file_size: 最大文件大小 (单位为 KB)
+                mime_types: 设置MIME类型对应的上传方式
+            resize:
+                title: 调整图片大小
+                toggle: 切换图片调整
+                max_width: 最大图片宽度
+                max_height: 最大图片高度
+            watermark:
+                title: 水印图片
+                toggle: 水印图片
+                position: 水印位置
+                file: 上传水印图片
+            local:
+                title: 本地存储设定
+                cdn_url: CDN 网址 (附加在文件前面)
+            imgur:
+                title: Imgur 图片存储设定
+                client_id: Imgur client ID
+            aws-s3:
+                title: AWS S3 storage settings
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: Region
+            ovh-svfs:
+                title: OVH SVFS 存储设定
+                container: Container
+                tenantid: Tenant ID
+                username: Username
+                password: Password
+                region: Region
+            disable-hotlink-protection:
+                title: 禁用防盗链保护
+                toggle: 禁用
+            disable-download-logging:
+                title: 禁用下载历史统计
+                toggle: 禁用
+
+        buttons:
+            save: 保存设定
+        help_texts:
+            description: >
+                设置上传服务及偏好
+            mime_types: 请设置MIME类型。每一种类型都将会使用设定好的上传方式处理。
+            download_templates: >
+                设置图片与文件的展示模板
+            resize: >
+                是否在上传前调整图片大小
+                您可以设置最大宽度和高度，以 px 为单位
+                调整图片大小将会保持图片的纵横比。
+            watermark: >
+                选择是否在图片中添加水印
+                上传并根据下面偏好，水印将添加到你的
+                非GIF格式图片中。
+            disable-hotlink-protection: >
+                防盗链保护可以通过验证 csrf token 和 post id 
+                来阻止来自站外的下载请求。（默认启用）
+            disable-download-logging: >
+                打开开关可以禁用后台对论坛用户每次下载行为的记录。
+                如果保持记录功能启用
+                你可以查看文件的下载次数及其他相关数据。（默认启用）
