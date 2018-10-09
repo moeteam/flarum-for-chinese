@@ -1,5 +1,6 @@
 # Flarum 中文本土优化版
 本中文版基于 [FlarumChina](https://github.com/skywalker512/FlarumChina) 的 [v0.1.0-beta.7C ](https://github.com/skywalker512/FlarumChina/releases/tag/v0.1.0-beta.7C)  进行修改。
+
 主要对 **"登入"、"节点" **等一些词句及一些设置选项进行了翻译修改。
 
 以下是修改翻译处的一些截图：
@@ -36,4 +37,5 @@
 # 声明：
 
 感谢由 [FlarumChina](https://github.com/skywalker512/FlarumChina) 提供的优质中文翻译。
+
 本翻译仅代表个人习惯进行适当修改，不代表 FlarumChina 的翻译是错误的！
