@@ -23,9 +23,7 @@
 
 # 食用方法：
 >1. 使用 [FlarumChina](https://github.com/skywalker512/FlarumChina) 提供的完整安装包。
-
 >2. 删除 *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 目录下的所有文件夹和文件。
-
 >3. 再将本库中的所有文件及文件夹移动至  *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 目录下即可。
 
 # note:
