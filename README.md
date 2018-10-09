@@ -22,13 +22,11 @@
 
 
 # 食用方法：
-```
-1. 使用 [FlarumChina](https://github.com/skywalker512/FlarumChina) 提供的完整安装包。
+>1. 使用 [FlarumChina](https://github.com/skywalker512/FlarumChina) 提供的完整安装包。
 
-2. 删除 *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 目录下的所有文件夹和文件。
+>2. 删除 *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 目录下的所有文件夹和文件。
 
-3. 将本库中的所有文件及文件夹移动至  *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 即可。
-```
+>3. 再将本库中的所有文件及文件夹移动至  *./vendor/flarumchina/flarum-ext-simplified-chinese-pro/* 目录下即可。
 
 # note:
 1. 以上方法针对于已安装 Flarum 中文版的网站进行翻译修改，之所以要先删除文件再移动文件是因为直接替换会导致修改无效。
