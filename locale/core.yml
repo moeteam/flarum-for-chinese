@@ -93,7 +93,7 @@ core:
       account_heading: SMTP 账户
       addresses_heading: 发件邮箱
       driver_label: 默认为 mail ，如需使用 SMTP 请在下方输入 SMTP 信息
-      encryption_label: 加密方式(如需使用加密只需在下方输入 SSL 或 TLS 即可启用对应的加密方式，若不需要则留空)
+      encryption_label: 加密方式 (如需使用加密只需在下方输入 SSL 或 TLS 即可启用对应的加密方式，若不需要则留空)
       from_label: 发件人
       heading: => core.ref.email
       host_label: SMTP 主机
